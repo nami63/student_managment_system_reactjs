@@ -1,0 +1,18 @@
+
+.App1 {
+  height: 1500px;
+  background: linear-gradient(to bottom, black,white);
+}
+@media screen and (max-width: 600px) {
+    .header-link {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .header-link {
+      font-size: 12px;
+    }
+  }
+
+  

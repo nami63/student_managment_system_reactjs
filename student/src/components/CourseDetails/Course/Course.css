@@ -1,0 +1,159 @@
+
+.he {
+  color: white;
+  margin-top: -66px;
+  font-size: 40px;
+  align-content: center;
+}
+.ha {
+  font-size: 35px;
+  margin-top: 3px;
+  color: white;
+}
+.hea {
+  font-size: 40px;
+  margin-top: -39px;
+  font-size: 35px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+.course-name {
+  color: white;
+}
+
+.selected-course-name {
+  text-align: center;
+  color: white;
+}
+
+.selected-course-desc {
+  font-size: 16px; /* Adjust the font size as desired */
+  text-align: justify;
+  margin: 30px;
+  color: #ddd;
+}
+
+.subheader {
+  padding-bottom: 44px;
+    padding-top: 20px;
+  color: aliceblue;
+  padding-left: -9px;
+  margin-left: 66px;
+}
+.course-list {
+  padding-bottom: 20px;
+  list-style-type: disc;
+  color: white;
+  padding-left: 76px;
+  padding-right: 30pc;
+}
+.course-list li{
+  padding-bottom: 20px;
+}
+.course-list li:hover .course-name {
+  color: blue; /* Set the color of the course name on hover */
+}
+.course-photo-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.photo-and-course {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center; /* Align items vertically in the center */
+  gap: 0px;
+}
+
+.photo-and-course > .course-name {
+  margin-right: 30px;
+}
+
+.course-photo {
+  width: 600px; /* Adjust the width as desired */
+  height: 400px; /* Adjust the height as desired */
+  object-fit: cover;
+  margin-right: 84px; /* Adjust the object-fit property as desired */
+}
+
+/* syllabus.css */
+
+.table-container {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 30px;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+}
+
+.table-container tbody tr {
+  background-color: #f2f2f2;
+}
+
+.table-container tbody tr:hover {
+  background-color: #eaf5ff;
+}
+.libary {
+  color: #ddd;
+  margin: 20px;
+}
+.para {
+  text-align: justify;
+  margin: 30px;
+  color: #ddd;
+}
+.h4 {
+  margin: 20px;
+  font-size: large;
+  color: #ddd;
+}
+
+.para1 {
+  text-align: justify;
+  margin: 30px;
+  color: #ddd;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}
+.flex-container {
+  display: flex;
+  gap: 90px;
+}
+.digitallib {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3366cc;
+}
+.img-container img:hover {
+  transform: scale(0.95);
+}
+
+.img-container img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+.para1 {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #3366cc;
+}
+
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+}
